@@ -20,3 +20,7 @@
 .vs/AMS/DesignTimeBuild/
 .vs/AMS/v17/
 .vs/AMS/AMS.vsconfig
+
+# Ignore build artifacts
+[Bb]in/
+[Oo]bj/
