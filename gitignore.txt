@@ -403,3 +403,23 @@ FodyWeavers.xsd
 *.vsmd
 *.pdb
 *.tmp
+
+
+# Ignore Visual Studio files
+.vs/
+.vs/AMS/
+.vs/AMS/v17/
+.vs/ProjectEvaluation/
+
+# Ignore build artifacts
+bin/
+obj/
+
+# Ignore temporary and cache files
+*.vsidx
+*.suo
+*.backup.json
+*.metadata.v9.bin
+*.projects.v9.bin
+*.strings.v9.bin
+*.cache
