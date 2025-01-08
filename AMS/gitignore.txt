@@ -110,3 +110,9 @@ yarn-error.log*
 
 # Ignore Visual Studio FileContentIndex files
 .vs/AMS/FileContentIndex/
+
+# Ignore temporary files
+*.vsmd
+*.pdb
+*.tmp
+
