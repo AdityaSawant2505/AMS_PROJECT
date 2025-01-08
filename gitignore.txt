@@ -423,3 +423,15 @@ obj/
 *.projects.v9.bin
 *.strings.v9.bin
 *.cache
+
+
+# Ignore additional Visual Studio files
+.vs/AMS/DesignTimeBuild/
+.vs/AMS/v17/
+.vs/AMS/AMS.vsconfig
+
+# Ignore specific design-time and layout files
+*.dtbcache.v2
+*.suo
+*.backup.json
+*.json
