@@ -647,11 +647,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aditya\\source\\repos\\AMS\\AMS.csproj",
+      "projectUniqueName": "C:\\Users\\Aditya\\source\\repos\\AMS_PROJECT\\AMS\\AMS.csproj",
       "projectName": "AMS",
-      "projectPath": "C:\\Users\\Aditya\\source\\repos\\AMS\\AMS.csproj",
+      "projectPath": "C:\\Users\\Aditya\\source\\repos\\AMS_PROJECT\\AMS\\AMS.csproj",
       "packagesPath": "C:\\Users\\Aditya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aditya\\source\\repos\\AMS\\obj\\",
+      "outputPath": "C:\\Users\\Aditya\\source\\repos\\AMS_PROJECT\\AMS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -673,11 +673,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Aditya\\source\\repos\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\Aditya\\source\\repos\\BLL\\BLL.csproj"
+            "C:\\Users\\Aditya\\source\\repos\\AMS_PROJECT\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\Aditya\\source\\repos\\AMS_PROJECT\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\Aditya\\source\\repos\\DLL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\Aditya\\source\\repos\\DLL\\DAL.csproj"
+            "C:\\Users\\Aditya\\source\\repos\\AMS_PROJECT\\DLL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\Aditya\\source\\repos\\AMS_PROJECT\\DLL\\DAL.csproj"
             }
           }
         }
