@@ -3,3 +3,11 @@
 ################################################################################
 
 /AMS/.vs/AMS/FileContentIndex
+
+# Ignore all .vs folders and their contents
+.vs/
+
+# Ignore obj and bin folders
+bin/
+obj/
+
