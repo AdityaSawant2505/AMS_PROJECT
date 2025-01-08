@@ -1,17 +1,11 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/AMS/.vs/AMS/FileContentIndex
-
-# Ignore Visual Studio folders and files
+﻿# Ignore Visual Studio folders and files
 .vs/
 .vs/AMS/
 .vs/AMS/v17/
 .vs/AMS/DesignTimeBuild/
 .vs/ProjectEvaluation/
 
-# Specific files that are modified/created by Visual Studio
+# Ignore specific Visual Studio files
 *.suo
 *.user
 *.userosscache
@@ -22,3 +16,7 @@
 *.bin
 *.cache
 
+# Additional ignored Visual Studio-generated files
+.vs/AMS/DesignTimeBuild/
+.vs/AMS/v17/
+.vs/AMS/AMS.vsconfig
