@@ -4,10 +4,21 @@
 
 /AMS/.vs/AMS/FileContentIndex
 
-# Ignore all .vs folders and their contents
+# Ignore Visual Studio folders and files
 .vs/
+.vs/AMS/
+.vs/AMS/v17/
+.vs/AMS/DesignTimeBuild/
+.vs/ProjectEvaluation/
 
-# Ignore obj and bin folders
-bin/
-obj/
+# Specific files that are modified/created by Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.dtbcache.v2
+*.backup.json
+*.json
+*.bin
+*.cache
 
