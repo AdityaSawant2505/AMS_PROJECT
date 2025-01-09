@@ -106,7 +106,7 @@ namespace DLL.Implementations
             {
                 new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
                 new Claim(ClaimTypes.Name, user.UserName),
-                new Claim(ClaimTypes.Email, user.UserEmail)
+                new Claim(ClaimTypes.Email, user.UserEmail) 
             };
 
             claims.AddRange(roles.Select(role => new Claim(ClaimTypes.Role, role)));
