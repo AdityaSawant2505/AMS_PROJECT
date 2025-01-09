@@ -9,7 +9,9 @@ namespace DLL.Interfaces
 {
     public interface IUsersService
     {
+        Task<bool> CreateUser(InsertUserRequest request);
         Task<GetUsers> GetUserByName(string name);
-
+        Task<List<string>> GetPermissions(long userId);
+        Task<List<string>> GetRoles(long userId);
     }
 }

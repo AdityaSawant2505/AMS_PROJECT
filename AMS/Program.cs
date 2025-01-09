@@ -2,6 +2,7 @@ using BLL.Implementations;
 using BLL.Interfaces;
 using DLL.Implementations;
 using DLL.Interfaces;
+using DLL.Models.Auth;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,10 +15,15 @@ builder.Services.AddSwaggerGen();
 
 //DAL
 builder.Services.AddScoped<IUsersService,UsersService>();
+builder.Services.AddScoped<IAuthService,AuthService>();
+builder.Services.AddScoped<PasswordHelper,PasswordHelper>();
 
 
 //BAL
 builder.Services.AddScoped<IUsersManagerService,UsersManagerService>();
+builder.Services.AddScoped<IAuthManagerService,AuthManagerService>();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
