@@ -13,11 +13,13 @@
 *.sln.docstates
 *.ide.*
 
-# Ignore build artifacts (bin/ and obj/)
+# Ignore build artifacts (bin/ and obj/) and nested folders
 [Bb]in/
 [Oo]bj/
 **/[Bb]in/
 **/[Oo]bj/
+**/[Bb]in/**/*
+**/[Oo]bj/**/*
 
 # Ignore files generated during builds or rebuilds
 *.dll
@@ -92,5 +94,9 @@ _ReSharper*/
 # Ignore build artifacts for BLL and DLL projects
 ../BLL/[Bb]in/
 ../BLL/[Oo]bj/
+../BLL/[Bb]in/**/*
+../BLL/[Oo]bj/**/*
 ../DLL/[Bb]in/
 ../DLL/[Oo]bj/
+../DLL/[Bb]in/**/*
+../DLL/[Oo]bj/**/*
