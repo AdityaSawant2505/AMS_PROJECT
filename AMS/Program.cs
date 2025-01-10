@@ -3,6 +3,7 @@ using BLL.Interfaces;
 using DLL.Implementations;
 using DLL.Interfaces;
 using DLL.Models.Auth;
+using DLL.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,17 +12,23 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.OperationFilter<AddFileUploadFilter>();
+});
 
 //DAL
 builder.Services.AddScoped<IUsersService,UsersService>();
 builder.Services.AddScoped<IAuthService,AuthService>();
 builder.Services.AddScoped<PasswordHelper,PasswordHelper>();
+builder.Services.AddScoped<IEmailService,EmailService>();
+builder.Services.AddSingleton<AddFileUploadFilter>();
 
 
 //BAL
 builder.Services.AddScoped<IUsersManagerService,UsersManagerService>();
 builder.Services.AddScoped<IAuthManagerService,AuthManagerService>();
+builder.Services.AddScoped<IEmailManagerService,EmailManagerService>();
 
 
 var app = builder.Build();

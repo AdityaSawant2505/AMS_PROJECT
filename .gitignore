@@ -100,3 +100,4 @@ _ReSharper*/
 # Allow markdown files in bin/ and obj/
 !bin/**/*.md
 !obj/**/*.md
+/DLL/Models/AddFileUploadFilter.cs
