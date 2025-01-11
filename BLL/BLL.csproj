@@ -103,10 +103,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implementations\AuthManagerService.cs" />
-    <Compile Include="Implementations\EmailManagerService.cs" />
     <Compile Include="Implementations\UsersManagerService.cs" />
     <Compile Include="Interfaces\IAuthManagerService.cs" />
-    <Compile Include="Interfaces\IEmailManagerService.cs" />
     <Compile Include="Interfaces\IUsersManagerService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
