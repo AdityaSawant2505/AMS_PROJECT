@@ -16,13 +16,14 @@ builder.Services.AddSwaggerGen();
 //DAL
 builder.Services.AddScoped<IUsersService,UsersService>();
 builder.Services.AddScoped<IAuthService,AuthService>();
+builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddScoped<PasswordHelper,PasswordHelper>();
 
 
 //BAL
 builder.Services.AddScoped<IUsersManagerService,UsersManagerService>();
 builder.Services.AddScoped<IAuthManagerService,AuthManagerService>();
-
+builder.Services.AddScoped<IEmailManagerService,EmailManagerService>();
 
 var app = builder.Build();
 
